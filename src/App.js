@@ -1,24 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ReactDOM from 'react-dom';
+import PathfindingVisualizer from './PathfindingVisualizer/PathfindingVisualizer';
+import HomeScreen from './HomeScreen/HomeScreen';
+import NavBar from './NavBar/NavBar';
+import P5Wrapper from 'react-p5-wrapper';
+import BSort from './BSort/BSort';
+import BreadthFirstSearch from './BreadthFirstSearch/BreadthFirstSearch';
+import QSort from './QSort/QSort';
+import BFSExtra from './BFSExtra/BFSExtra';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+       <HomeScreen></HomeScreen>
+       <NavBar></NavBar>
+       <PathfindingVisualizer></PathfindingVisualizer>
+       <BFSExtra></BFSExtra>
+      <BreadthFirstSearch></BreadthFirstSearch>
+      <BSort></BSort>
+      <QSort></QSort>
+
+
     </div>
   );
 }
