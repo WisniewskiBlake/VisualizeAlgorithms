@@ -12,6 +12,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+![](images/web1.png)
+
+![](images/web2.png)
+
+![](images/web3.png)
+
+
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br />
@@ -66,3 +74,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+**When trying to change the website make sure you are on gh-pages branch in VS Code Bash. 
+
